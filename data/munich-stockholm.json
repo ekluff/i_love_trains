@@ -1,0 +1,1643 @@
+{
+    "data": {
+        "journeySearch": {
+            "passengers": {
+                "pid-0": {
+                    "id": "pid-0",
+                    "dateOfBirth": "1990-11-11T00:00:00"
+                }
+            },
+            "journeys": {
+                "journey-9dbed88e-acf1-486b-9282-1991d056d225": {
+                    "sections": [
+                        "section-b615d328-f667-490c-8d33-05ad3ec518c9",
+                        "section-f6f28a29-2ecc-44ac-b4c6-7415ba972183"
+                    ],
+                    "id": "journey-9dbed88e-acf1-486b-9282-1991d056d225",
+                    "direction": "outward",
+                    "legs": [
+                        "leg-d5bc004e-753d-49a4-8d30-0165002d336d",
+                        "leg-56a65a9d-a472-4a33-9415-c67d27777b3d",
+                        "leg-ebca8868-ea24-492e-a327-74df378e4a64",
+                        "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                    ],
+                    "departAt": "2025-11-12T03:49:00+01:00",
+                    "arriveAt": "2025-11-13T08:10:00+01:00",
+                    "duration": "P1DT4H21M",
+                    "hash": "b11+ntUS2bQ=",
+                    "hasFirstClassRecommendedStationPair": false,
+                    "distanceInKm": 0
+                }
+            },
+            "createdAt": "2025-11-11T14:07:36.459379Z",
+            "pagination": {
+                "next": {
+                    "outward": true,
+                    "inward": false
+                },
+                "previous": {
+                    "outward": true,
+                    "inward": false
+                }
+            },
+            "id": "46b125d6-81d0-4209-94e4-a56f8a23c522",
+            "expiresAt": "2025-11-11T14:47:28Z",
+            "alternatives": {
+                "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-dad3f0a0-e26c-4410-81ef-4e7a9e2102c1": {
+                    "id": "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-dad3f0a0-e26c-4410-81ef-4e7a9e2102c1",
+                    "price": {
+                        "amount": 217.99,
+                        "currencyCode": "EUR",
+                        "currencyConversionApplied": false
+                    },
+                    "fullPrice": {
+                        "amount": 217.99,
+                        "currencyCode": "EUR",
+                        "currencyConversionApplied": false
+                    },
+                    "fares": [
+                        "fare-3156f381-cf0b-4037-891d-4d6788b63816"
+                    ],
+                    "farePassengers": [
+                        {
+                            "passengers": [
+                                {
+                                    "id": "pid-0",
+                                    "passengerType": "a4ae54204d0ca3e7fcf883b115c483fe983d83c1"
+                                }
+                            ],
+                            "fareId": "fare-3156f381-cf0b-4037-891d-4d6788b63816"
+                        }
+                    ],
+                    "isPartial": false,
+                    "flexibility": {
+                        "code": "urn:trainline:flex:nonflexi",
+                        "name": "nonflexi",
+                        "language": "en"
+                    },
+                    "vendorInformation": {
+                        "id": "58fdbad08428c787b9b6f7c6c515dd56c7c5ad1c",
+                        "code": "urn:trainline:db_pst:vendor:db_pst",
+                        "name": "DB PST",
+                        "description": null
+                    },
+                    "selectedExtras": [
+                        {
+                            "id": "d33329c6-b971-4567-a4ce-b03f78b27b45",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "6f76ec66-e027-4bcb-b725-1a0259a37352",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "8ecf2b55-fc21-49db-95f9-00703dc53c6e",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "115c54a2-6631-41d4-92bd-899fbe6d460a",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "78d82538-f3e9-4edf-8ff0-66bdb3b6c87e",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "6d88ba81820ee1786e1902d817af55bb484bf7e8",
+                                "code": "urn:trainline:db_pst:extra:wifi-41fe042dea96f419111e4953962609c9",
+                                "name": "WiFi",
+                                "description": null,
+                                "group": "wifi"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "92b0a685-9a10-40a4-a269-a4320f40dee3",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        },
+                        {
+                            "id": "e80c8fea-64cb-4431-b235-c1db152704ac",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        }
+                    ],
+                    "comfortClassCorrelationToken": "nonflexi-first-f40959814d96d3d91f5f33bd3c6b4bb379d0d308-DB_PST",
+                    "billableUnits": [
+                        {
+                            "correlationToken": "f40959814d96d3d91f5f33bd3c6b4bb379d0d308",
+                            "fareLegIds": [
+                                "fare-leg-0da35302-d0bf-4969-afb4-0e76029051ed",
+                                "fare-leg-9a9c776e-0040-4729-8aab-c8ae74adbf8b",
+                                "fare-leg-16e39af4-3a2a-4269-b59d-642c509c103e"
+                            ],
+                            "originalPrice": {
+                                "amount": 217.99,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "price": {
+                                "amount": 217.99,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "passengerIds": [
+                                "pid-0"
+                            ]
+                        }
+                    ],
+                    "hash": "Htdz5cI/pd8=",
+                    "composition": [],
+                    "availableExtras": [
+                        {
+                            "id": "d33329c6-b971-4567-a4ce-b03f78b27b45",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "6f76ec66-e027-4bcb-b725-1a0259a37352",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "1d41bda5-ff0f-4505-a367-b9d4dd82ff40",
+                            "price": {
+                                "amount": 6.9,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": true,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "f7943670d3d01ad338d4dafad7c66be135575df4",
+                                "code": "urn:trainline:db_pst:extra:seat_reservation-8dff66fc98dd5d08c66de1677febff9c",
+                                "name": "Seat Reservation",
+                                "description": null,
+                                "group": "seatReservation"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d",
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d",
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        },
+                        {
+                            "id": "8ecf2b55-fc21-49db-95f9-00703dc53c6e",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "115c54a2-6631-41d4-92bd-899fbe6d460a",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "78d82538-f3e9-4edf-8ff0-66bdb3b6c87e",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "6d88ba81820ee1786e1902d817af55bb484bf7e8",
+                                "code": "urn:trainline:db_pst:extra:wifi-41fe042dea96f419111e4953962609c9",
+                                "name": "WiFi",
+                                "description": null,
+                                "group": "wifi"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "92b0a685-9a10-40a4-a269-a4320f40dee3",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        },
+                        {
+                            "id": "e80c8fea-64cb-4431-b235-c1db152704ac",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-5fc5eb56-26a5-4bc5-8332-bf4ebca39e47"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        }
+                    ],
+                    "savings": [],
+                    "upsellProposals": [],
+                    "expiresAt": "2025-11-11T14:47:28Z"
+                },
+                "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-796dd04d-272e-4835-b769-eca77e055ab8": {
+                    "id": "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-796dd04d-272e-4835-b769-eca77e055ab8",
+                    "price": {
+                        "amount": 227.99,
+                        "currencyCode": "EUR",
+                        "currencyConversionApplied": false
+                    },
+                    "fullPrice": {
+                        "amount": 227.99,
+                        "currencyCode": "EUR",
+                        "currencyConversionApplied": false
+                    },
+                    "fares": [
+                        "fare-c65ab4a6-a6d3-4fa6-a431-f78802ba5bf7"
+                    ],
+                    "farePassengers": [
+                        {
+                            "passengers": [
+                                {
+                                    "id": "pid-0",
+                                    "passengerType": "a4ae54204d0ca3e7fcf883b115c483fe983d83c1"
+                                }
+                            ],
+                            "fareId": "fare-c65ab4a6-a6d3-4fa6-a431-f78802ba5bf7"
+                        }
+                    ],
+                    "isPartial": false,
+                    "flexibility": {
+                        "code": "urn:trainline:flex:semiflexi",
+                        "name": "semiflexi",
+                        "language": "en"
+                    },
+                    "vendorInformation": {
+                        "id": "58fdbad08428c787b9b6f7c6c515dd56c7c5ad1c",
+                        "code": "urn:trainline:db_pst:vendor:db_pst",
+                        "name": "DB PST",
+                        "description": null
+                    },
+                    "selectedExtras": [
+                        {
+                            "id": "9b771793-f5c9-448a-b626-00fc9979726f",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "a35a74d3-1f9a-43df-8e8c-f1741a177f9d",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "355c92dc-0360-4100-8136-41c6724c62ab",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "e9f2301a-2913-42ff-8f7a-0ee5e601c260",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "2afc37da-173f-424f-b9c3-a2279bad437f",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "6d88ba81820ee1786e1902d817af55bb484bf7e8",
+                                "code": "urn:trainline:db_pst:extra:wifi-41fe042dea96f419111e4953962609c9",
+                                "name": "WiFi",
+                                "description": null,
+                                "group": "wifi"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "d7b3dad0-04ad-4f71-9d6a-c6106e3ea150",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        },
+                        {
+                            "id": "293a8d0e-ba70-4c49-9d30-439fb3d012c8",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        }
+                    ],
+                    "comfortClassCorrelationToken": "semiflexi-first-f40959814d96d3d91f5f33bd3c6b4bb379d0d308-DB_PST",
+                    "billableUnits": [
+                        {
+                            "correlationToken": "f40959814d96d3d91f5f33bd3c6b4bb379d0d308",
+                            "fareLegIds": [
+                                "fare-leg-73a78319-62ea-44d5-adb4-3464422c7d2a",
+                                "fare-leg-c09157eb-0f37-49fc-9499-3fe9ea8818f4",
+                                "fare-leg-5ee9bd44-fc3b-4382-95c6-cd4c8150f1e2"
+                            ],
+                            "originalPrice": {
+                                "amount": 227.99,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "price": {
+                                "amount": 227.99,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "passengerIds": [
+                                "pid-0"
+                            ]
+                        }
+                    ],
+                    "hash": "js9dN084c80=",
+                    "composition": [],
+                    "availableExtras": [
+                        {
+                            "id": "9b771793-f5c9-448a-b626-00fc9979726f",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "a35a74d3-1f9a-43df-8e8c-f1741a177f9d",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d"
+                            ]
+                        },
+                        {
+                            "id": "51f71b00-4d36-410a-a85f-cb6931d0b07f",
+                            "price": {
+                                "amount": 6.9,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": true,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "f7943670d3d01ad338d4dafad7c66be135575df4",
+                                "code": "urn:trainline:db_pst:extra:seat_reservation-8dff66fc98dd5d08c66de1677febff9c",
+                                "name": "Seat Reservation",
+                                "description": null,
+                                "group": "seatReservation"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-d5bc004e-753d-49a4-8d30-0165002d336d",
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d",
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        },
+                        {
+                            "id": "355c92dc-0360-4100-8136-41c6724c62ab",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "e9f2301a-2913-42ff-8f7a-0ee5e601c260",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "2afc37da-173f-424f-b9c3-a2279bad437f",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "6d88ba81820ee1786e1902d817af55bb484bf7e8",
+                                "code": "urn:trainline:db_pst:extra:wifi-41fe042dea96f419111e4953962609c9",
+                                "name": "WiFi",
+                                "description": null,
+                                "group": "wifi"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d"
+                            ]
+                        },
+                        {
+                            "id": "d7b3dad0-04ad-4f71-9d6a-c6106e3ea150",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3e6d13244d9fef9b1be1db68037cabc2c0fc54eb",
+                                "code": "urn:trainline:db_pst:extra:quiet_zone-f006f0b1aa8a7f44eab8d4cafc640490",
+                                "name": "Quiet zone",
+                                "description": null,
+                                "group": "quietZone"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        },
+                        {
+                            "id": "293a8d0e-ba70-4c49-9d30-439fb3d012c8",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "c5af508fdcd4e8608cea902ccb6eedf1b01d065a",
+                                "code": "urn:trainline:db_pst:extra:seat_catering-16abaa385a72636bab78141fdb306a00",
+                                "name": "Catering at your seat",
+                                "description": null,
+                                "group": "restaurant"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-d5805797-c1b8-49c9-816e-278465a280ae"
+                            ],
+                            "legIds": [
+                                "leg-ebca8868-ea24-492e-a327-74df378e4a64"
+                            ]
+                        }
+                    ],
+                    "savings": [],
+                    "upsellProposals": [],
+                    "expiresAt": "2025-11-11T14:47:28Z"
+                },
+                "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-07331bd7-55b9-4570-a1d4-bb881585d05d": {
+                    "id": "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-07331bd7-55b9-4570-a1d4-bb881585d05d",
+                    "price": {
+                        "amount": 45.98,
+                        "currencyCode": "EUR",
+                        "currencyConversionApplied": false
+                    },
+                    "fullPrice": {
+                        "amount": 45.98,
+                        "currencyCode": "EUR",
+                        "currencyConversionApplied": false
+                    },
+                    "fares": [
+                        "fare-36559957-ec96-4022-b3a0-fad92b16a977"
+                    ],
+                    "farePassengers": [
+                        {
+                            "passengers": [
+                                {
+                                    "id": "pid-0",
+                                    "passengerType": "a4ae54204d0ca3e7fcf883b115c483fe983d83c1"
+                                }
+                            ],
+                            "fareId": "fare-36559957-ec96-4022-b3a0-fad92b16a977"
+                        }
+                    ],
+                    "isPartial": false,
+                    "flexibility": {
+                        "code": "urn:trainline:flex:semiflexi",
+                        "name": "semiflexi",
+                        "language": "en"
+                    },
+                    "vendorInformation": {
+                        "id": "37c9b41e4c5ddf7655322018c934cef5a3f80ccd",
+                        "code": "urn:trainline:distribusion:vendor:distribusion",
+                        "name": "Distribusion",
+                        "description": null
+                    },
+                    "selectedExtras": [
+                        {
+                            "id": "356f29eb-cc7c-4a6a-ba89-b9ec1dff6a15",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "34c8d9dabbacbb7d2294d45be13e04eea1e421e2",
+                                "code": "urn:trainline:distribusion:extra:toilet-7a8f5e250ccfa7e061b9443a7c512c24",
+                                "name": "Toilets",
+                                "description": "A toilet is available on board.",
+                                "group": "toilet"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        },
+                        {
+                            "id": "1e8bb035-f722-415e-af55-881ceeee5c32",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "d734bbac47f7b550673d1afd10a9aecb86210d1c",
+                                "code": "urn:trainline:distribusion:extra:wifi-5714ded5a21638883fd9110bfe245258",
+                                "name": "WiFi",
+                                "description": "Free WiFi available onboard.",
+                                "group": "wifi"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        },
+                        {
+                            "id": "f25f2077-56dd-4090-8221-8fef2baef965",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3b0076f11e0d04f60577d5783f87f633efb5245b",
+                                "code": "urn:trainline:distribusion:extra:outlet-c09f83eed325b4237a6b2c2b53437cd4",
+                                "name": "Power outlet",
+                                "description": "Each row of seats is equipped with a 220 volt power outlet.",
+                                "group": "electricSocket"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        },
+                        {
+                            "id": "c4b2a032-c416-4321-82b6-62af7666f09e",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "72b46a3f7466e335fa8c3182ac0099c2d1d7cba5",
+                                "code": "urn:trainline:distribusion:extra:small_luggage-91dcfc08e9da2068344c5dc9ffc1fbf7",
+                                "name": "Luggage",
+                                "description": "Each passenger can take one hand luggage (max. 42x30x18cm, max. 7kg) and one small luggage (max. 55×40×21cm, max. 10kg) free of charge.",
+                                "group": "luggage"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        }
+                    ],
+                    "comfortClassCorrelationToken": "c10e1828bf0711f08ac092f2a46fd53a",
+                    "billableUnits": [
+                        {
+                            "correlationToken": "adf4e3eb61a8fddc334d91b4ba45b9ceb1d1d639",
+                            "fareLegIds": [
+                                "fare-leg-da5e350e-c8d7-4de1-b03c-3962a9202e04"
+                            ],
+                            "originalPrice": {
+                                "amount": 45.98,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "price": {
+                                "amount": 45.98,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "passengerIds": [
+                                "pid-0"
+                            ]
+                        }
+                    ],
+                    "hash": "g8QGN1d3NLg=",
+                    "composition": [],
+                    "availableExtras": [
+                        {
+                            "id": "356f29eb-cc7c-4a6a-ba89-b9ec1dff6a15",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "34c8d9dabbacbb7d2294d45be13e04eea1e421e2",
+                                "code": "urn:trainline:distribusion:extra:toilet-7a8f5e250ccfa7e061b9443a7c512c24",
+                                "name": "Toilets",
+                                "description": "A toilet is available on board.",
+                                "group": "toilet"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        },
+                        {
+                            "id": "1e8bb035-f722-415e-af55-881ceeee5c32",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "d734bbac47f7b550673d1afd10a9aecb86210d1c",
+                                "code": "urn:trainline:distribusion:extra:wifi-5714ded5a21638883fd9110bfe245258",
+                                "name": "WiFi",
+                                "description": "Free WiFi available onboard.",
+                                "group": "wifi"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        },
+                        {
+                            "id": "f25f2077-56dd-4090-8221-8fef2baef965",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "3b0076f11e0d04f60577d5783f87f633efb5245b",
+                                "code": "urn:trainline:distribusion:extra:outlet-c09f83eed325b4237a6b2c2b53437cd4",
+                                "name": "Power outlet",
+                                "description": "Each row of seats is equipped with a 220 volt power outlet.",
+                                "group": "electricSocket"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        },
+                        {
+                            "id": "c4b2a032-c416-4321-82b6-62af7666f09e",
+                            "price": {
+                                "amount": 0,
+                                "currencyCode": "EUR",
+                                "currencyConversionApplied": false
+                            },
+                            "selectionStateChangeable": false,
+                            "availableQuantity": 1,
+                            "extraType": {
+                                "id": "72b46a3f7466e335fa8c3182ac0099c2d1d7cba5",
+                                "code": "urn:trainline:distribusion:extra:small_luggage-91dcfc08e9da2068344c5dc9ffc1fbf7",
+                                "name": "Luggage",
+                                "description": "Each passenger can take one hand luggage (max. 42x30x18cm, max. 7kg) and one small luggage (max. 55×40×21cm, max. 10kg) free of charge.",
+                                "group": "luggage"
+                            },
+                            "farePassengerIds": [
+                                "fare-passenger-a517d87a-0b67-469c-a2f4-e88cc852ca60"
+                            ],
+                            "legIds": [
+                                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5"
+                            ]
+                        }
+                    ],
+                    "savings": [],
+                    "upsellProposals": [],
+                    "expiresAt": "2025-11-11T14:47:28Z"
+                }
+            },
+            "responseCards": {},
+            "fares": {
+                "fare-3156f381-cf0b-4037-891d-4d6788b63816": {
+                    "id": "fare-3156f381-cf0b-4037-891d-4d6788b63816",
+                    "fareLegs": [
+                        {
+                            "id": "fare-leg-0da35302-d0bf-4969-afb4-0e76029051ed",
+                            "legId": "leg-d5bc004e-753d-49a4-8d30-0165002d336d",
+                            "travelClass": {
+                                "id": "c65e042eee0820ddbb90cf54686d84ac2c85b18a",
+                                "code": "urn:trainline:db_pst:class:first",
+                                "name": "First"
+                            },
+                            "comfort": {
+                                "id": "8ee034965c6ad781cfb9ef1deb6f53955756b77c",
+                                "code": "urn:trainline:db_pst:comfort:first",
+                                "name": "1st class",
+                                "description": null,
+                                "allowsComfortChoice": false,
+                                "imageUrl": null
+                            },
+                            "reservationType": "none",
+                            "localTransport": []
+                        },
+                        {
+                            "id": "fare-leg-9a9c776e-0040-4729-8aab-c8ae74adbf8b",
+                            "legId": "leg-56a65a9d-a472-4a33-9415-c67d27777b3d",
+                            "travelClass": {
+                                "id": "c65e042eee0820ddbb90cf54686d84ac2c85b18a",
+                                "code": "urn:trainline:db_pst:class:first",
+                                "name": "First"
+                            },
+                            "comfort": {
+                                "id": "8ee034965c6ad781cfb9ef1deb6f53955756b77c",
+                                "code": "urn:trainline:db_pst:comfort:first",
+                                "name": "1st class",
+                                "description": null,
+                                "allowsComfortChoice": false,
+                                "imageUrl": null
+                            },
+                            "reservationType": "none",
+                            "localTransport": []
+                        },
+                        {
+                            "id": "fare-leg-16e39af4-3a2a-4269-b59d-642c509c103e",
+                            "legId": "leg-ebca8868-ea24-492e-a327-74df378e4a64",
+                            "travelClass": {
+                                "id": "c65e042eee0820ddbb90cf54686d84ac2c85b18a",
+                                "code": "urn:trainline:db_pst:class:first",
+                                "name": "First"
+                            },
+                            "comfort": {
+                                "id": "8ee034965c6ad781cfb9ef1deb6f53955756b77c",
+                                "code": "urn:trainline:db_pst:comfort:first",
+                                "name": "1st class",
+                                "description": null,
+                                "allowsComfortChoice": false,
+                                "imageUrl": null
+                            },
+                            "reservationType": "none",
+                            "localTransport": []
+                        }
+                    ],
+                    "fareType": "23544e0a31769c50273938e56bdf3ccc9f32500c",
+                    "cardIds": [],
+                    "origin": "513d081e9027698b209c70e3969b0665e3207a41",
+                    "destination": "761eb4af195705c5e924b1b6a1294d067f77904c",
+                    "availability": {
+                        "status": "available"
+                    },
+                    "vouchers": [],
+                    "nonContractualTerms": [],
+                    "hash": "H0J+LbFDkBM=",
+                    "deliveryOptions": []
+                },
+                "fare-c65ab4a6-a6d3-4fa6-a431-f78802ba5bf7": {
+                    "id": "fare-c65ab4a6-a6d3-4fa6-a431-f78802ba5bf7",
+                    "fareLegs": [
+                        {
+                            "id": "fare-leg-73a78319-62ea-44d5-adb4-3464422c7d2a",
+                            "legId": "leg-d5bc004e-753d-49a4-8d30-0165002d336d",
+                            "travelClass": {
+                                "id": "c65e042eee0820ddbb90cf54686d84ac2c85b18a",
+                                "code": "urn:trainline:db_pst:class:first",
+                                "name": "First"
+                            },
+                            "comfort": {
+                                "id": "8ee034965c6ad781cfb9ef1deb6f53955756b77c",
+                                "code": "urn:trainline:db_pst:comfort:first",
+                                "name": "1st class",
+                                "description": null,
+                                "allowsComfortChoice": false,
+                                "imageUrl": null
+                            },
+                            "reservationType": "none",
+                            "localTransport": []
+                        },
+                        {
+                            "id": "fare-leg-c09157eb-0f37-49fc-9499-3fe9ea8818f4",
+                            "legId": "leg-56a65a9d-a472-4a33-9415-c67d27777b3d",
+                            "travelClass": {
+                                "id": "c65e042eee0820ddbb90cf54686d84ac2c85b18a",
+                                "code": "urn:trainline:db_pst:class:first",
+                                "name": "First"
+                            },
+                            "comfort": {
+                                "id": "8ee034965c6ad781cfb9ef1deb6f53955756b77c",
+                                "code": "urn:trainline:db_pst:comfort:first",
+                                "name": "1st class",
+                                "description": null,
+                                "allowsComfortChoice": false,
+                                "imageUrl": null
+                            },
+                            "reservationType": "none",
+                            "localTransport": []
+                        },
+                        {
+                            "id": "fare-leg-5ee9bd44-fc3b-4382-95c6-cd4c8150f1e2",
+                            "legId": "leg-ebca8868-ea24-492e-a327-74df378e4a64",
+                            "travelClass": {
+                                "id": "c65e042eee0820ddbb90cf54686d84ac2c85b18a",
+                                "code": "urn:trainline:db_pst:class:first",
+                                "name": "First"
+                            },
+                            "comfort": {
+                                "id": "8ee034965c6ad781cfb9ef1deb6f53955756b77c",
+                                "code": "urn:trainline:db_pst:comfort:first",
+                                "name": "1st class",
+                                "description": null,
+                                "allowsComfortChoice": false,
+                                "imageUrl": null
+                            },
+                            "reservationType": "none",
+                            "localTransport": []
+                        }
+                    ],
+                    "fareType": "3bd5ef21d46d75579b005ab60dd25e1502921ba5",
+                    "cardIds": [],
+                    "origin": "513d081e9027698b209c70e3969b0665e3207a41",
+                    "destination": "761eb4af195705c5e924b1b6a1294d067f77904c",
+                    "availability": {
+                        "status": "available"
+                    },
+                    "vouchers": [],
+                    "nonContractualTerms": [],
+                    "hash": "bxtx200eWXs=",
+                    "deliveryOptions": []
+                },
+                "fare-36559957-ec96-4022-b3a0-fad92b16a977": {
+                    "id": "fare-36559957-ec96-4022-b3a0-fad92b16a977",
+                    "fareLegs": [
+                        {
+                            "id": "fare-leg-da5e350e-c8d7-4de1-b03c-3962a9202e04",
+                            "legId": "leg-d9ba20ac-3032-4f39-8971-6073b43954c5",
+                            "travelClass": {
+                                "id": "e922e95a94e388186d0c7220cc94995ba9c809b5",
+                                "code": "urn:trainline:distribusion:class:economy",
+                                "name": "Standard"
+                            },
+                            "comfort": {
+                                "id": "c957397b120d8765a343e48e1b92bfe9c0add68a",
+                                "code": "urn:trainline:distribusion:comfort:distribusion.flixbus.standard",
+                                "name": "Standard",
+                                "description": null,
+                                "allowsComfortChoice": true,
+                                "imageUrl": null
+                            },
+                            "reservationType": "none",
+                            "localTransport": []
+                        }
+                    ],
+                    "fareType": "2eb8779b1016ca5e489c9725bbe5d9e14837c1f5",
+                    "cardIds": [],
+                    "origin": "364d9c4a542bb31556ff0a997b2749af596387fa",
+                    "destination": "8b5e8c31bc079175893224a7de704db9c33df448",
+                    "availability": {
+                        "status": "available"
+                    },
+                    "vouchers": [],
+                    "nonContractualTerms": [],
+                    "hash": "RYuiEFYzojo=",
+                    "deliveryOptions": []
+                }
+            },
+            "legs": {
+                "leg-d5bc004e-753d-49a4-8d30-0165002d336d": {
+                    "id": "leg-d5bc004e-753d-49a4-8d30-0165002d336d",
+                    "duration": "PT6H4M",
+                    "departAt": "2025-11-12T03:49:00+01:00",
+                    "arriveAt": "2025-11-12T09:53:00+01:00",
+                    "timetableId": "888",
+                    "transportDesignation": "ICE",
+                    "arrivalLocation": "8c4490a500065e0110d26fd2dfe83b1e04fa5eef",
+                    "departureLocation": "513d081e9027698b209c70e3969b0665e3207a41",
+                    "carrier": "519a2eb764bab72bb11bab4e612b42c6d9287b13",
+                    "vendorQuotaIdentifier": "ICE 888",
+                    "transportMode": "8aa9ed677ae8353527f54ebafc1371cab2ac31da",
+                    "brand": "840967a151abf34ae9c4c3dce08eae81386b3cba",
+                    "co2EmissionInGramsPerPassenger": 11620,
+                    "vehicleAttributes": [],
+                    "shouldShowDetails": [],
+                    "hash": "HX7xKb8/gDk="
+                },
+                "leg-56a65a9d-a472-4a33-9415-c67d27777b3d": {
+                    "id": "leg-56a65a9d-a472-4a33-9415-c67d27777b3d",
+                    "duration": "PT5H9M",
+                    "departAt": "2025-11-12T10:53:00+01:00",
+                    "arriveAt": "2025-11-12T16:02:00+01:00",
+                    "timetableId": "396",
+                    "transportDesignation": "EC",
+                    "arrivalLocation": "e9e5ed26e82bca76cdbcffe0480bd10456ed618d",
+                    "departureLocation": "8c4490a500065e0110d26fd2dfe83b1e04fa5eef",
+                    "carrier": "519a2eb764bab72bb11bab4e612b42c6d9287b13",
+                    "vendorQuotaIdentifier": "EC 396",
+                    "transportMode": "8aa9ed677ae8353527f54ebafc1371cab2ac31da",
+                    "co2EmissionInGramsPerPassenger": 5463,
+                    "vehicleAttributes": [],
+                    "shouldShowDetails": [],
+                    "hash": "h1K3RPDTWYA="
+                },
+                "leg-ebca8868-ea24-492e-a327-74df378e4a64": {
+                    "id": "leg-ebca8868-ea24-492e-a327-74df378e4a64",
+                    "duration": "PT40M",
+                    "departAt": "2025-11-12T16:23:00+01:00",
+                    "arriveAt": "2025-11-12T17:03:00+01:00",
+                    "timetableId": "21372",
+                    "transportDesignation": "R",
+                    "arrivalLocation": "761eb4af195705c5e924b1b6a1294d067f77904c",
+                    "departureLocation": "e9e5ed26e82bca76cdbcffe0480bd10456ed618d",
+                    "carrier": "0d31320684144cad1e687ca7b8a066fac3e52543",
+                    "vendorQuotaIdentifier": "R 21372",
+                    "transportMode": "8aa9ed677ae8353527f54ebafc1371cab2ac31da",
+                    "co2EmissionInGramsPerPassenger": 538,
+                    "vehicleAttributes": [],
+                    "shouldShowDetails": [],
+                    "hash": "QNhobMggNcg="
+                },
+                "leg-d9ba20ac-3032-4f39-8971-6073b43954c5": {
+                    "id": "leg-d9ba20ac-3032-4f39-8971-6073b43954c5",
+                    "duration": "PT8H20M",
+                    "departAt": "2025-11-12T23:50:00+01:00",
+                    "arriveAt": "2025-11-13T08:10:00+01:00",
+                    "timetableId": "",
+                    "transportDesignation": "Bus",
+                    "arrivalLocation": "8b5e8c31bc079175893224a7de704db9c33df448",
+                    "departureLocation": "364d9c4a542bb31556ff0a997b2749af596387fa",
+                    "carrier": "165b9ef61568829017fe1b7b3e13a39bd6a9dce1",
+                    "transportMode": "32cbb20e9c0cf53016431e440c2f80b5f1227c40",
+                    "vehicleAttributes": [],
+                    "shouldShowDetails": [],
+                    "hash": "uPy4QH3i+EQ="
+                }
+            },
+            "sections": {
+                "section-b615d328-f667-490c-8d33-05ad3ec518c9": {
+                    "alternatives": [
+                        "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-dad3f0a0-e26c-4410-81ef-4e7a9e2102c1",
+                        "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-796dd04d-272e-4835-b769-eca77e055ab8"
+                    ],
+                    "mixedLegComforts": false,
+                    "id": "section-b615d328-f667-490c-8d33-05ad3ec518c9"
+                },
+                "section-f6f28a29-2ecc-44ac-b4c6-7415ba972183": {
+                    "alternatives": [
+                        "38b0ef18-5dd0-4e19-9dd2-d68761694330%alternative-07331bd7-55b9-4570-a1d4-bb881585d05d"
+                    ],
+                    "mixedLegComforts": false,
+                    "id": "section-f6f28a29-2ecc-44ac-b4c6-7415ba972183"
+                }
+            },
+            "deliveryOptions": {},
+            "inwardSearch": false
+        },
+        "brands": {
+            "840967a151abf34ae9c4c3dce08eae81386b3cba": {
+                "id": "840967a151abf34ae9c4c3dce08eae81386b3cba",
+                "code": "urn:trainline:db_pst:brand:ice",
+                "name": "ice"
+            }
+        },
+        "carriers": {
+            "519a2eb764bab72bb11bab4e612b42c6d9287b13": {
+                "id": "519a2eb764bab72bb11bab4e612b42c6d9287b13",
+                "code": "urn:trainline:db_pst:carrier:db",
+                "name": "Deutsche Bahn",
+                "ricsCode": null
+            },
+            "0d31320684144cad1e687ca7b8a066fac3e52543": {
+                "id": "0d31320684144cad1e687ca7b8a066fac3e52543",
+                "code": "urn:trainline:db_pst:carrier:other",
+                "name": "Other",
+                "ricsCode": null
+            },
+            "165b9ef61568829017fe1b7b3e13a39bd6a9dce1": {
+                "id": "165b9ef61568829017fe1b7b3e13a39bd6a9dce1",
+                "code": "urn:trainline:distribusion:carrier:flixbus",
+                "name": "FlixBus",
+                "ricsCode": null
+            }
+        },
+        "locations": {
+            "8c4490a500065e0110d26fd2dfe83b1e04fa5eef": {
+                "id": "8c4490a500065e0110d26fd2dfe83b1e04fa5eef",
+                "code": "urn:trainline:db_pst:loc:8002549",
+                "locationType": "station",
+                "name": "Hamburg Hbf",
+                "shortName": null,
+                "latitude": 53.5527,
+                "longitude": 10.0069,
+                "timezone": "Europe/Berlin",
+                "countryCode": "DE",
+                "language": null,
+                "address": null,
+                "aliases": null,
+                "parents": [
+                    {
+                        "code": "urn:trainline:db_pst:loc:8096009",
+                        "locationType": "city",
+                        "name": "Hamburg",
+                        "shortName": null,
+                        "latitude": 53.5638,
+                        "longitude": 9.9658,
+                        "timezone": "Europe/Berlin",
+                        "countryCode": "DE",
+                        "language": null,
+                        "address": null,
+                        "aliases": null,
+                        "id": "30254f5ee1d58f429fb24b62b26cf55c6920ad3b",
+                        "parents": []
+                    }
+                ]
+            },
+            "513d081e9027698b209c70e3969b0665e3207a41": {
+                "id": "513d081e9027698b209c70e3969b0665e3207a41",
+                "code": "urn:trainline:db_pst:loc:8000261",
+                "locationType": "station",
+                "name": "München Hbf",
+                "shortName": null,
+                "latitude": 48.1402,
+                "longitude": 11.5583,
+                "timezone": "Europe/Berlin",
+                "countryCode": "DE",
+                "language": null,
+                "address": null,
+                "aliases": null,
+                "parents": []
+            },
+            "e9e5ed26e82bca76cdbcffe0480bd10456ed618d": {
+                "id": "e9e5ed26e82bca76cdbcffe0480bd10456ed618d",
+                "code": "urn:trainline:db_pst:loc:8601309",
+                "locationType": "station",
+                "name": "København",
+                "shortName": null,
+                "latitude": 55.6727,
+                "longitude": 12.5646,
+                "timezone": "Europe/Copenhagen",
+                "countryCode": "DK",
+                "language": null,
+                "address": null,
+                "aliases": null,
+                "parents": []
+            },
+            "761eb4af195705c5e924b1b6a1294d067f77904c": {
+                "id": "761eb4af195705c5e924b1b6a1294d067f77904c",
+                "code": "urn:trainline:db_pst:loc:7400004",
+                "locationType": "station",
+                "name": "Malmö Central",
+                "shortName": null,
+                "latitude": 55.6092,
+                "longitude": 13.0013,
+                "timezone": "Europe/Stockholm",
+                "countryCode": "SE",
+                "language": null,
+                "address": null,
+                "aliases": null,
+                "parents": []
+            },
+            "8b5e8c31bc079175893224a7de704db9c33df448": {
+                "id": "8b5e8c31bc079175893224a7de704db9c33df448",
+                "code": "urn:trainline:distribusion:loc:SESTOSHA",
+                "locationType": "station",
+                "name": "Stockholm Central Bus Station",
+                "shortName": null,
+                "latitude": 59.3311,
+                "longitude": 18.0567,
+                "timezone": "Europe/Stockholm",
+                "countryCode": "SE",
+                "language": null,
+                "address": [
+                    "Klarabergsviadukten 72",
+                    "11164 Stockholm"
+                ],
+                "aliases": [
+                    "SESTOSHA"
+                ],
+                "parents": []
+            },
+            "364d9c4a542bb31556ff0a997b2749af596387fa": {
+                "id": "364d9c4a542bb31556ff0a997b2749af596387fa",
+                "code": "urn:trainline:distribusion:loc:SEMMAMNV",
+                "locationType": "station",
+                "name": "Malmo Norra Vallgatan",
+                "shortName": null,
+                "latitude": 55.608,
+                "longitude": 13.0003,
+                "timezone": "Europe/Stockholm",
+                "countryCode": "SE",
+                "language": null,
+                "address": [
+                    "Norra Vallgatan 62",
+                    "21122 Malmö"
+                ],
+                "aliases": [
+                    "SEMMAMNV"
+                ],
+                "parents": []
+            }
+        },
+        "discountCards": {},
+        "disruptions": {},
+        "fareTypes": {
+            "23544e0a31769c50273938e56bdf3ccc9f32500c": {
+                "id": "23544e0a31769c50273938e56bdf3ccc9f32500c",
+                "code": "urn:trainline:db_pst:fare:367544309a61083ed92768bd0b3b312b",
+                "name": "Super Sparpreis Europa",
+                "conditionsSummary": "Your ticket cannot be cancelled.",
+                "conditions": [
+                    {
+                        "title": "DESCRIPTION",
+                        "description": "Your ticket cannot be cancelled."
+                    }
+                ],
+                "farePricingCategory": "default",
+                "secondaryFare": null,
+                "validityPeriods": null
+            },
+            "3bd5ef21d46d75579b005ab60dd25e1502921ba5": {
+                "id": "3bd5ef21d46d75579b005ab60dd25e1502921ba5",
+                "code": "urn:trainline:db_pst:fare:54f4ce02345639850c50d5bf79b27408",
+                "name": "Sparpreis Europa",
+                "conditionsSummary": "You can cancel your ticket up to and including 11.11.2025 for a fee of EUR 10,00. You will receive a voucher for the remaining amount. No cancellation thereafter.",
+                "conditions": [
+                    {
+                        "title": "DESCRIPTION",
+                        "description": "You can cancel your ticket up to and including 11.11.2025 for a fee of EUR 10,00. You will receive a voucher for the remaining amount. No cancellation thereafter."
+                    }
+                ],
+                "farePricingCategory": "default",
+                "secondaryFare": null,
+                "validityPeriods": null
+            },
+            "2eb8779b1016ca5e489c9725bbe5d9e14837c1f5": {
+                "id": "2eb8779b1016ca5e489c9725bbe5d9e14837c1f5",
+                "code": "urn:trainline:distribusion:fare:86c647ad66f833a3128f0bfa908aed3b",
+                "name": "FlixBus",
+                "conditionsSummary": "Non-exchangeable. Non-exchangeable. Up to 100% of the ticket price refund in the form of a voucher: issued at 25% of the ticket price for cancellations less than 1 day before departure, 50% between 1 and 6 days, 75% between 7 and 29 days, and 100% for cancellations made 30 days or more in advance. Please visit https://www.flixbus.com/service/change-cancel-a-booking/cancellation-policy. Service fee included in the price and no refundable.",
+                "conditions": [
+                    {
+                        "title": "DESCRIPTION",
+                        "description": "Non-exchangeable. Non-exchangeable. Up to 100% of the ticket price refund in the form of a voucher: issued at 25% of the ticket price for cancellations less than 1 day before departure, 50% between 1 and 6 days, 75% between 7 and 29 days, and 100% for cancellations made 30 days or more in advance. Please visit https://www.flixbus.com/service/change-cancel-a-booking/cancellation-policy. Service fee included in the price and no refundable."
+                    }
+                ],
+                "farePricingCategory": "default",
+                "secondaryFare": null,
+                "validityPeriods": null
+            }
+        },
+        "routeRestrictions": {},
+        "fareRestrictions": {},
+        "fareCategories": {},
+        "transportModes": {
+            "8aa9ed677ae8353527f54ebafc1371cab2ac31da": {
+                "id": "8aa9ed677ae8353527f54ebafc1371cab2ac31da",
+                "code": "urn:trainline:db_pst:tramod:train",
+                "name": "Train",
+                "mode": "train"
+            },
+            "32cbb20e9c0cf53016431e440c2f80b5f1227c40": {
+                "id": "32cbb20e9c0cf53016431e440c2f80b5f1227c40",
+                "code": "urn:trainline:distribusion:tramod:bus",
+                "name": "Coach",
+                "mode": "bus"
+            }
+        },
+        "passengerTypes": {
+            "7f9212e98506ecf63cd6735033fb000cf30a47a6": {
+                "id": "7f9212e98506ecf63cd6735033fb000cf30a47a6",
+                "name": "adult",
+                "code": "urn:trainline:db_pst:psgr:adult",
+                "ageRestriction": {
+                    "lowerBound": 27
+                }
+            },
+            "a4ae54204d0ca3e7fcf883b115c483fe983d83c1": {
+                "id": "a4ae54204d0ca3e7fcf883b115c483fe983d83c1",
+                "name": "adult",
+                "code": "urn:trainline:distribusion:psgr:adult",
+                "ageRestriction": {
+                    "lowerBound": 26
+                }
+            }
+        },
+        "appliedDiscounts": {}
+    }
+}
