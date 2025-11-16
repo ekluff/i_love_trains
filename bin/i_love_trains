@@ -1,0 +1,7 @@
+#! /usr/bin/env ruby
+
+require_relative '../lib/scraper/thetrainline'
+require 'date' # needed to load DateTime so it can be used as an input
+require 'irb'
+
+IRB.start
