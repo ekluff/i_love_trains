@@ -1,8 +1,4 @@
-class Parser
-  # TODO obviously this only works on my machine but I'm developing this class in irb
-  # change to relative path or better yet, move logic
-  FILE_PATH = '/Users/evanclough/code/i_love_trains/data/munich-berlin.json'
-  
+class Parser  
   # I originally tried to see if ChatGPT could help write this class. TLDR: absolutely not
   # Some of the bugs were extremely funny, as tends to the be the case with AI
   # Every few months I like to check if the tools can do what they promise, answer continues to be not really
@@ -11,7 +7,7 @@ class Parser
   attr_reader :json_data, :journey_search, :journeys, :alternatives, :fares, :legs, :sections, :locations, :carriers, :transport_modes, :fare_types
 
   # TODO remove nil default
-  def initialize(response_obj=nil)
+  def initialize(response_obj)
     # TODO in final implementation, read response obj instead of file
     # fallback to file if response_obj is nil
     # this works either way but behavior is unexpected so still want to clean it up
@@ -31,11 +27,17 @@ class Parser
   end
 
   # TODO remove nil default
-  def self.parse(response_obj=nil)
+  def self.parse(response_obj)
     Parser.new(response_obj).parse
   end
 
   def parse
+    build_response
+  end
+
+  private
+
+  def build_response
     out = []
 
     journeys.each do |journey_id, journey|
@@ -74,8 +76,6 @@ class Parser
     out
   end
 
-  private
-
   def journey_fare_details(journey)
     # I don't love this big pile of parser logic here because the variables are only used once, right here (so, why bother assigning?)
     # and the only purpose is to drill down from journey to alternative (and subsequently to fare)
@@ -85,7 +85,7 @@ class Parser
     journey_alternatives = alternatives.select {|k| journey_alternative_ids.include? k}
 
     journey_alternatives.map do |id, alternative|
-      # Alternatives have one Fare per passenger, i.e., two passengers two fares
+      # Alternatives have one Fare per Passenger, i.e., two passengers two fares
       # Since our tool doesn't accept passenger numbers we will assume there will always only be one Passenger/Fare
       # This significantly simplifies the logic because we don't have to match anything up or iterate again
       alternative_fare = fares[alternative['fares'].first]
