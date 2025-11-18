@@ -43,15 +43,22 @@ class Parser
       # it would be simpler to get this from the legs, but I'm not confident the legs are always listed chronologically and I don't want to check
       # If we were to iterate fares anyways, an alternative would be to populate the value if nil, but I already wrote this and it works
       # journey > section > alternative > fare > location:name
-      first_fare = fares[alternatives[sections[journey['sections'].first]['alternatives'].first]['fares'].first]
+      first_section_first_fare = fares[alternatives[sections[journey['sections'].first]['alternatives'].first]['fares'].first]
+
+      # This is necessary because if a trip is split across incompatible agencies, one superleg of the trip might have multiple sections.
+      # This is the case with the Stockholm data. In most cases, the first and last sections will be the same section, because there is only one.
+      # But, for the cases where there are multiple, we need to check the first and last for the origin and destination, respectively.
+      # Because the code is so similar to the line above, it should be possible to optimize it, but I'll be honest -- I'm getting tired and would
+      # like to submit this challenge :-)
+      last_section_first_fare = fares[alternatives[sections[journey['sections'].last]['alternatives'].first]['fares'].first]
       journey_legs = legs.select {|k| journey['legs'].include? k}
 
       out << {
         # journey > section > alternative > fare:origin > location:name
-        departure_station: locations[first_fare['origin']]['name'],
+        departure_station: locations[first_section_first_fare['origin']]['name'],
         departure_at: DateTime.parse(journey['departAt']),
         # journey > section > alternative > fare:destination > location:name
-        arrival_station: locations[first_fare['destination']]['name'],
+        arrival_station: locations[last_section_first_fare['destination']]['name'],
         arrival_at: DateTime.parse(journey['arriveAt']),
         # because we don't care about the order we can this get directly from journey > legs > carriers:name
         # normally might be nice to break this up so it's more readable; I generally don't like code like this because it's easy to write and harder to debug
