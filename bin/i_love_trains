@@ -1,6 +1,7 @@
 #! /usr/bin/env ruby
 
 require 'date' # needed to load DateTime so it can be used as an input
+require 'json' # this should be loaded by default, but just in case
 require 'irb'
 
 # with a project this small it would arguably be better to use require_relative
@@ -8,12 +9,8 @@ require 'irb'
 # prepend the dir i_love_trains to the load path so we can then require our project files
 $LOAD_PATH.unshift(File.expand_path('..', __FILE__))
 
-# iterate through the ruby files in our project and require each of them
-Dir.glob(File.join($LOAD_PATH.first, '..', '**', '*.rb')).each do |file|
-  # in its current form this runs immediately, as it was never turned into proper class
-  # therefore we will skip it, because it is not a core part of the task and I don't wish to invest more time into it
-  next if File.basename(file) == 'ferrum_playground.rb'
-
+# iterate through the ruby files in the lib dir and require each of them
+Dir.glob(File.join($LOAD_PATH.first, '..', 'lib', '**', '*.rb')).each do |file|
   require file
 end
 
