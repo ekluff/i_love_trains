@@ -200,3 +200,43 @@ Data
     - age restriction {"lowerBound": 27}
   Applied Discounts {}
 
+# Request Body for /api/journey-search
+
+```json
+{
+    "passengers": [],
+    "isEurope": true,
+    "cards": [],
+    "transitDefinitions": [
+        {
+            "direction": "outward",
+            "origin": "urn:trainline:generic:loc:7686",
+            "destination": "urn:trainline:generic:loc:19102",
+            "journeyDate": {
+                "type": "departAfter",
+                "time": "2025-11-11T15:00:59"
+            }
+        }
+    ],
+    "type": "single",
+    "maximumJourneys": 5,
+    "includeRealtime": true,
+    "dpiCookieId": "3BBONDWS8NSV5REI4EI2TBJO",
+    "transportModes": [
+        "mixed"
+    ],
+    "directSearch": false,
+    "composition": [
+        "through",
+        "interchangeSplit"
+    ],
+    "autoApplyCorporateCodes": false,
+    "origin": "urn:trainline:generic:loc:7686",
+    "destination": "urn:trainline:generic:loc:19102",
+    "searchSpecificRequests": {
+        "includeCheaperSlowerJourneys": true,
+        "maxSplitPoints": 1
+    },
+    "requestedCurrencyCode": "EUR"
+}
+```
