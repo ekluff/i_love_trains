@@ -14,14 +14,12 @@ To experiment with the code in ferrum_playground.rb, you will also need to insta
 
 ### Test suite
 
-The tests are written in minitest instead of rspec, because minitest is include with the standard ruby distribution.
+The tests are written in minitest instead of rspec, because minitest is included with the standard ruby distribution.
 
 To run the tests:
 
 ```ruby
-require 'minitest'
-
-ruby test/thetrainline_test.rb
+ruby test/scraper/thetrainline_test.rb
 ```
 
 # Further development possibilities
