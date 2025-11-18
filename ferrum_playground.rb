@@ -26,7 +26,7 @@
 #   - trainline does not appear to use an authorization header
 #   - primary security of trainline appears to be cookie based
 #   - user-agent header often used to detect suspicious activity
-#     - after runniny my script several times I encountered unusual errors -- possibly soft blocking. This may have been user-agent based. 
+#     - after running my script several times I encountered unusual errors -- possibly soft blocking. This may have been user-agent based. 
 #       I might have been able to overcome this using the puppeteer-extra-stealth plugin, which also works with ferrum.
 #       Shoutout to https://railsnotes.xyz/blog/ferrum-stealth-browsing#adding-the-puppeteer-extra-stealth-plugin
 # - appropriate cookie values. The main security of api/journey-search appears to be cookie based. I note various relevant cookies:
