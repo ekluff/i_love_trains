@@ -26,6 +26,8 @@ ruby test/scraper/thetrainline_test.rb
 
 This tool could easily be turned into a gem that manages its own dependencies and has a small CLI for usability. It could also be containerized for more advanced dependency management.
 
+The test suite is poorly structured and not nearly thorough enough for a production application. 
+
 # General notes
 
 I tried to use a variety of architectural patterns in this application to demonstrate my familiarity with various concepts. The code contains extensive comments -- more than I might normally write -- so that the evaluators may gain insights into my thought processes.
