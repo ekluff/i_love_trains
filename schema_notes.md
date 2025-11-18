@@ -75,6 +75,8 @@ all keys camelCase (I wrote it with spaces for readability)
 examples pasted directly, data types or explanations parenthesized
 I don't know why I chose to document the schema in this format, but that's what I ended up with so that's what we're using
 
+(this looks much more ordered in my text editor, if you're viewing it on github it looks terrible)
+
 Data
   Journey Search {}
     - id "46b125d6-81d0-4209-94e4-a56f8a23c522"
