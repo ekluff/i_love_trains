@@ -12,8 +12,8 @@
 - legs represent the legs of the trip (surprise)
 - sections have many alternatives and represent the options for a "superleg" of a trip/journey
 - sections are supersets of legs between the edge nodes of a journey. E.g. return trips, out and back are separate sections
-- seems like most simple-ish oneway journeys have one section, but I did see some with multiple. 
-  - maybe multiple only happens when you've selected a superstation, e.g., Munich (any) to Stockholm (any), so Munich Hbf to Stockholms centralstation is a different section from Munich ZOB to Stockholm Cityterminalen
+  - Sections appear to represent trip portions which happen on one ticket across compatible agencies. I.e., one ticket can work on both Deutsche Bahn and ÖBB, but if you have to change to Flixbus to reach the destination, then there is another section for the incompatible stretch. This is the case in the munich-stockholm data
+  - maybe multiple also happens when you've selected a superstation, e.g., Munich (any) to Stockholm (any), so Munich Hbf to Stockholms centralstation is a different section from Munich ZOB to Stockholm Cityterminalen
   - perhaps also if a journey has multiple paths with a first leg on one vehicle but diverge later on (so they share a departure time/vehicle but not arrival time/vehicle)
   - if this is the case journeys, alternatives, and sections both should all iterated to build response as they all contain differing options to complete a trip: they are all supersets of legs to get from one place to another
 - alternatives are different options to complete an entire section. Belongs to sections (?)
