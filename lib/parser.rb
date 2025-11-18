@@ -6,13 +6,7 @@ class Parser
 
   attr_reader :json_data, :journey_search, :journeys, :alternatives, :fares, :legs, :sections, :locations, :carriers, :transport_modes, :fare_types
 
-  # TODO remove nil default
   def initialize(response_obj)
-    # TODO in final implementation, read response obj instead of file
-    # fallback to file if response_obj is nil
-    # this works either way but behavior is unexpected so still want to clean it up
-    response_obj ||= File.read(FILE_PATH)
-
     @json_data = JSON.parse(response_obj)['data']    
     @journey_search = json_data['journeySearch']
     @journeys = journey_search['journeys']      
@@ -26,7 +20,6 @@ class Parser
     @fare_types = json_data['fareTypes']  
   end
 
-  # TODO remove nil default
   def self.parse(response_obj)
     Parser.new(response_obj).parse
   end
