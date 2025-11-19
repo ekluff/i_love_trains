@@ -38,10 +38,23 @@ There is very little AI written code in this project. AI did help me troubleshoo
 
 AI was helpful in quickly setting up Minitest, because I am more familiar with Rspec. In the end, however, it was suggesting tests that were extremely complex with many depedencies, so I just wrote a few simple ones myself.
 
-## Regarding specific files
+## Project Structure
 
-### ferrum_playground.rb
-The code in the file ferrum_playground.rb **does not fully work**. See the comments in this file for why I commited the code anyways, and what I was trying to accomplish with it.
+The project is divided into several directories: bin, data, lib, and test.
 
-### schema_notes.md
-schema_notes.md is my documentation of the project's input and output specs, the schema of the response object, and an example of the request body.
+**bin** contains an executable ruby script which requires dependencies, autoloads all of the ruby files in the lib dir, prints instructions for the user, and runs IRB.
+
+**data** contains response body json objects from the /api/journey-search endpoint. One of these two files is then selected depending on the user's input.
+
+**lib** contains the project business logic. 
+  - lib/scraper/thetrainline is the app's entry point. It calls the validator and the parser, and determines which response object file to load.
+  - lib/parser contains the app's main business logic. It accepts the response object body, parses it, and iterates through journeys to build the output array. It contains a public class method _parse_, which instantiates the class and calls an instance method of the same name. The public instance method _parse_ then calls the private instance method _build_response_. This method contains the core logic of the application.
+  - lib/validator runs a few simple validations on the user input. It contains a public class method _validate!_. This calls methods that read and apply valid patterns defined by contants in Validator, and raises ArgumentError for invalid arguments.
+
+**test** contains a (admittedly very basic) minitest suite. See comments in these files for more details.
+
+In the root dir, there are two more files: ferrum_playground.rb and schema_notes.md
+
+**ferrum_playground.rb** contains code for the web scraping gem Ferrum. In this file I experimented with ways to scrape the trainline website. The code in this file **does not fully work** and is not finished. See the comments in this file for why I commited the code anyways, and what I was trying to accomplish with it.
+
+**schema_notes.md** contains my notes of the project's input and output specs, the schema of the response object, and an example of the request body. Its contents is somewhat unrefined as it was intened not as documentation but as a tool to help me develop the app.
